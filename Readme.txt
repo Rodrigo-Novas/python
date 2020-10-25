@@ -6,3 +6,5 @@
 <li> <strong><em>PDF's</em></strong></li>
 <li> <strong><em>Explicaciones practicas</em></strong></li>
 </ul>
+
+<h2><strong>La carpeta llamada <em>Proyectos python</em> contiene practicas y ejemplos de uso, es importante mirar para ejemplificar</strong></h2>

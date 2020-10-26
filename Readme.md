@@ -12,8 +12,14 @@
 </ul>
 
 <table>
-<td>Carpetas</td>
-<tr>5</tr>
+<tr>
+<th>Carpetas</th>
+<th>Rpa</th>
+</tr>
+<tr>
+<td>5</td>
+<td>1</td>
+</tr>
 </table>
 
 <p><strong>La carpeta llamada <em>Proyectos python</em> contiene practicas y ejemplos de uso, es importante mirar para ejemplificar</strong></p>
@@ -21,5 +27,5 @@
 <h2>Carpeta rpa</h2>
 
 <ul>
-<li> <strong><em>Tesseract Link Descarga [tesseractDescarga] Link miniTuto [tesseractTutorial] ></em></strong></li>>
+<li> <strong><em>Tesseract [Link Descarga] [tesseractDescarga] [Link mini Tutorial] [tesseractTutorial] ></em></strong></li>>
 </ul>

@@ -26,6 +26,5 @@
 
 <h2>Carpeta rpa</h2>
 
-<ul>
-<li> <strong><em>Tesseract [Link Descarga] [tesseractDescarga] [Link mini Tutorial] [tesseractTutorial] ></em></strong></li>>
-</ul>
+
+1.Tesseract [Link Descarga][tesseractDescarga] [Link mini Tutorial][tesseractTutorial] 

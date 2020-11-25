@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+
+        <main>
+            <a href="https://placedog.net/"><img alt="gato" src="https://placedog.net/500/200" /></a> <!--Imagen con link-->
+            <form>
+                    <fieldset><!--Le coloca un borde y agrupa todos los campos que se encuentren dentro de el-->
+                        <legend>Datos personales</legend><!--Le coloca un nombre al cuadro-->
+                        <label>Edad</label>
+                        <input id="edad" type="number"/> <!--Nos coloca un inputbox, la etiqueta type nos indica que tipo de input va a ser por defecto es string -->
+                        <label>Nombre</label>
+                        <input id="nombre" type="text"/>
+                        <label>Contraseña</label>
+                        <input id="contraseña" type="password"/>
+                        <label>Mail</label>
+                        <input id="mail" type="email" placeholder="rodrigo@hotmail.com" multiple> <!--Multiple nos deja colocar multiples cosas en el input-->
+                        <input id="subir" type="submit" value="aceptar"/> <!--Esto nos genera un boton para subir con el valor value podemos cambiar el texto del boton es igual que la etiqueta button-->
+                        <textarea></textarea><!--Sirve para poner un cuadro de texto generalemnte para comentarios etc-->
+                        <button id="bottonComentario">Enviar comentarios</button>
+                        <select><!--Esto genera un dropdown-->
+                            <option value="goku">Goku</option> <!--Value es simplemente para cuando deseamos tomar el valor desde backend-->
+                            <option value="vegeta">Vegeta</option><!--Lo que aparece en el medio "Vegeta" eso aparecera en la lista-->
+                            <option value="gohan">Gohan</option>
+                        </select>          
+                    </fieldset>
+            </form>
+        </main>
+
+        <footer>
+            <table border="green">
+                <thead>
+                    <tr>
+                        <th>
+                            dia
+                        </th>
+                        <th>
+                            mes
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>13</td>
+                        <td>02</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>05</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Total Mes</td>
+                        <td>06</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </footer>
+</body>
+</html>

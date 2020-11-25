@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    {% extends 'base.html' %}
+    {% block title %}
+        Crear
+    {% endblock %}
+    {% block content %}
+        
+        <form method="POST">
+            <label for="username"></label>
+            <input type="text", name="username", required> <!--Nunca olvidar el atributo name-->
+            <label for="edad"></label>
+            <input type="number", name="edad", required> <!--Nunca olvidar el atributo name-->
+            <label for="email"></label>
+            <input type="email", name="email", required, placeholder="email@servicio.com"> <!--Nunca olvidar el atributo name-->
+            <input type="submit", value="Guardar">
+            <select>
+                <option value="admin">Admin</option>
+                <option value="user">User</option>
+            </select>
+        </form>
+
+    {% endblock %}
+
+
+</body>
+</html>

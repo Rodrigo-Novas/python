@@ -1,0 +1,102 @@
+/*Bordes y colores*/
+
+body
+{
+    background-color: chocolate; /*color de fondo*/
+    color: crimson; /*color de la letra*/
+    padding: 8px;
+}
+
+#parrafo /*El numeral se usa para los id*/
+{
+    color: darkblue;
+    padding: 8px;
+}
+
+.etiqueta /*En las clases se usa el punto*/
+{
+    color: darkorchid;
+    padding: 8px; /*Extiende todo el contenido de la caja, se visualiza mejor cuando tenes un backgroundcolor*/
+    margin: 8px; /*significa que desde el margen se corre 8 pixeles*/
+    border: forestgreen; /*Border lo que hace es ponerle bordes a la caja*/
+    border-style: groove;
+    border-width: 8px; /*al borde le agrega grosor*/
+    border-radius: 7px; /*le da un estilo redondeado al borde*/
+    width: 100px; /*ancho del elemento*/
+    height: 100px; /*alto del elemento*/
+    background-color: darksalmon;
+}
+
+/*Texto*/
+p
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: indianred;
+   text-align: left; 
+   text-indent: 15px; /*Le colocamos sangria al texto*/
+   line-height: 1.7px;/*Aumentas la separacion de las lineas del parrafo*/
+   word-spacing: 1;/*Aumentas la separacion de las palabras del parrafo*/
+   text-shadow: 5px,5px,3px, rgb(0,0,0,0.1);/*Le agrega una sombra al texto algo como un 3D*/
+}
+
+/*Links*/
+a
+{
+    padding: 8px;
+    text-decoration: none; /*Con esto podemos sacar el subrayado*/
+    text-transform: uppercase; /*Con esto podemos poner todo en mayuscula*/
+}
+
+/*Links sin visitar*/
+a:link
+{
+    color:pink;
+    text-decoration: none;
+}
+a:visited
+{
+    color: hotpink;
+}
+
+/*Cuando colocamos el mouse encima del link*/
+
+a:hover
+{
+    color:blueviolet;
+    text-decoration: underline;
+}
+
+/*Cuando mantenemos clickeado*/
+a:active
+{
+    color: black;
+    
+}
+
+/*Listas*/
+
+/*Esta forma de seleccionar elementos es NUEVA, primero se selecciona el elemento de mas arriba UL y despues el de mas abajo LI*/
+ul li 
+{
+    list-style-type: circle; /*Le coloca un simbolo al comienzo*/
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 15px;
+    position: fixed; /*deja el texto pegado*/
+    
+}
+
+table
+{
+    background-color: white;
+    border-collapse: collapse; /*Une los bordes*/
+}
+
+/*Tablas*/
+
+tr:nth-child(even)/*Significa que va a estar en todos los hijos del tr de forma impar se usa even o odd*/
+{
+    background-color: grey;
+}
+

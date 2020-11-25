@@ -1,0 +1,56 @@
+.header
+{
+    margin: 4px;
+    padding: 8px;
+}
+#titulo
+{
+    color: black;
+    border-top-style: hidden;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-right-color: grey;
+    border-left-color: grey;
+    border-bottom-color: grey;
+    border-radius: 8px;
+    width: 200px;
+    height: 100px;
+}
+#parrafo
+{
+    color: black;
+    border-top-style: hidden;
+    border-bottom-style: outset;
+    border-left-style: outset;
+    border-right-style: outset;
+    border-right-color: grey;
+    border-left-color: grey;
+    border-bottom-color: grey;
+    border-radius: 8px;
+    width: 200px;
+    height: 100px;
+}
+
+.footer
+{
+    margin: 4px;
+    padding: 8px;
+    border-top-style: hidden;
+    border-bottom-style: outset;
+    border-left-style: outset;
+    border-right-style: outset;
+    border-right-color: grey;
+    border-left-color: grey;
+    border-bottom-color: grey;
+    border-radius: 8px;
+    width: 200px;
+    height: 100px;
+}
+
+#botonAceptar
+{
+    background-color: blue;
+
+}
+

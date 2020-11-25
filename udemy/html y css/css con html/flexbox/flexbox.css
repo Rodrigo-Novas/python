@@ -1,0 +1,14 @@
+body
+{
+    background-color: #eeee;
+}
+
+.flex
+{
+    display: flex;
+    /*flex-direction: row-reverse;*/
+    flex-flow: row wrap; /*coloca el contenido en la linea de abajo*/
+    justify-content: space-evenly;/*Nos permite alinear el contenido*/
+    align-items: stretch;/*Coloca los divs alineados*/
+}
+

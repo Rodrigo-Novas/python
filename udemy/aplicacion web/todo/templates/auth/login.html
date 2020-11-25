@@ -1,0 +1,19 @@
+{% extend 'bsae.html' %}
+
+{% block header %}
+
+<h1>{% block title %}Loguearse{% endblock %}</h1>
+
+{% endblock %}
+
+{% block content %}
+
+<form method="POST">
+    <label for="username"></label>
+    <input type="text" name="username" id="username" required>
+    <label for="contraseña"></label>
+    <input type="password" name="contraseña" id="contraseña" required>
+    <input type="submit" value="Loguearse">
+</form>
+
+{% endblock %}

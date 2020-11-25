@@ -1,0 +1,77 @@
+programa
+modelo computable de un dominio de un problema de la realidad
+realidad, es todo aquello que podemos tocar sentir etc
+dominio de problema es un recorte de la realidad qu enos interesa modelar
+modelo es ina representacion de aquello que estamos modelando
+computable puede ejecutarse en una maquina de turing explica el que y resuelve el como
+
+es iterativo 
+incremental
+el conocimiento se genera a partir de hechos concretos
+el conocimiento generado debe ser organizado
+el feedback inmediato favorece al aprendizaje
+
+el dominio de problema esta generalemnte especificado en lenguajes ambiguos y contextualizados
+el proceso de desarrollo implica desambiguar y descontextualizar el conocimiento del dominio del problema
+el proceso de desarrllo implica hacer explicito y externo el conocimiento implicito e internalizado de los expertos del dominio
+
+
+el cambio es una caracteristica esencial del softwate no accidental
+
+objetos que colaboran entre si enviandose mensajes
+un objeto es la representacion del ente del dominio del problema
+donde ente es cualquier cosa que podemos hablar sobre etc
+
+la esencia del ente es modelado por los mensajes que el objeto saber responder
+un mensaje es uns especificacion sobre que puede hacer un objeto por lo tanto representa un ente de la realidad
+la colaboracion es el hecho por el cual dos objetos se comunican por medio de un mensaje
+
+emisor
+receptor
+respuesta
+conjunto de objetos que se comunican entre si
+
+
+son dirigids
+son asincronicas
+el receptor desconce al emisor
+siempre hay una respuesta
+
+
+---
+DOS IMPLEMENTACIONES
+
+PROTOTIPOS Y CLASES
+
+PROTO: ES UN OBJETO EJEMPKAR QUE REPRESENTA EL COMPORTAMIENTO DE UN CONJUNTO DE OBJETOS SIMILARES
+CLASES: ES UN OBJETO QUE REPRESENTA UN CONCEPTO O UNA IDEA DEL DOMINIO DEL PROBLEMA
+
+SUBCLASIFICACION O HERENCIA
+ES UNA HERRRAMIENTA UTILIZADA PARA ORGANIZAR EL CONOCMIENTO EN ONTOLOGIAS, ES UNA RELACION ESTATICA ENTRE CLASES PERMITE ORGANIZAR EL CONOCMIENTO
+
+PROBLEMAS DE CLASIFICACION:
+
+OBLIGA A TENER UNA CLASE Y POR LO TANTO SU NOMBRE ANTES DEL OBKETO CONCRETO LO CUAL ES ANTINATURAL
+OBLICA A GENERALIZAR CUAN AUN NO SE POSEE EL CONOCIMIENTO TOAL DE AQUELLO QUE REPRESENTA
+
+SUBCLASIFICACION
+ debe ser especificada de amnera inversa a como se obtiene el conocimiento
+rompe el encapsulamiento puesto que la subclase debe contener la implementacion de la superclase
+
+herencia multiple
+se usa para heredar de un mixin clases que se pueden mezclar porque agregan funcionalidades a una clase
+cuando usamos herencia multiple tenemos que tener encuenta como funciona el method lookup
+
+polimorfismo:
+
+dos objetos son polimorficos si responden a un conjunto de mensajes semanticamente igual, hacen lo mismo reciben objetos polimorficos y devuelven objetos polimorficos
+
+reglas
+un metodo es un objeto que representa un conjunto de colaboraciones
+la relacion de conocimiento es la unica relacion que existe entre los objetos
+una variables es un nombre contextual que se le asigna a una relacion de conocimientos
+la definicion de tipo que en el parafigma orientado a objetos es qu ees un conjunto de mensajes
+
+python ES multiparadigma. Es dinamicamente tipado, se hace metaprogramacion y todo es objetos
+
+las clases abstractas en python se sabe que son asi porque no implementan ningun metodo

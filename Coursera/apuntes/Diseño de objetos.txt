@@ -1,0 +1,14 @@
+evaluar modelo 
+
+un modelo se evalua por el 
+eje funcional: Cuando reprenseta todo aquella observacion que necesite. Debe ser relacion 1 a 1
+eje descriptivo: Lindo, buenos nombres, mismo lenguaje que el dominio
+eje implementativo: Requerimientos no funcionales, performance espacio, escalabilidad y funcionalidad
+
+simplicidad
+
+consistencia (utilizar metaforas)
+
+entendible debe ser legible y tene que haber un mapeo con el dominio de problema
+maxima cohesion(objetos bien funcionales)
+minimo complemento (minimizar efecto domino)
